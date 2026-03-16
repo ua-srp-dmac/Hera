@@ -1,6 +1,6 @@
 library("RPostgres")
 library("readxl")
-library("biogeo")
+
 library("gridExtra")
 library("stringr")
 
@@ -347,7 +347,7 @@ cat('
 
 
 }
-con <- dbConnect(RPostgres::Postgres(),)
+con <- dbConnect(RPostgres::Postgres())
 
 flag = 1
 
